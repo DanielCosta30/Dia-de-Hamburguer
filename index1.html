@@ -10,13 +10,16 @@
 	</head>
 <body>
 
-<body>
+
+    <header>
+        <h1 class="titulo">Hamburgue</h1>
+      </header>
+<main>
 
 
-        <div class="container">
-                
+        <div class="container">              
                 <div class="box">
-                    <label class="item">Pacote de Pão Und:</label><br>
+                    <label class="item-pao">Pacote de Pão Und:</label><br>
                     <input type="campos" name="paovalor" id="paovalor" placeholder="Insira a Quant.">
                     <input type="campos" name="quantpao" id="quantpao" placeholder="Insira o Valor R$">
                     <input type="campos" name="resultadopap" id="resultadopao" readonly value><br>
@@ -43,8 +46,7 @@
                     <label>Carne Fraldinha Kg:</label><br>
                     <input type="campos" name="valorcarne" id="valorcarne" placeholder="Insira a Quant">
                     <input type="campos" name="quantcarne" id="quantcarne" placeholder="Insira o Valor R">
-                    <input type="campos" name="resultadocarne" id="resultadocarne" readonly value><br>
-                    
+                    <input type="campos" name="resultadocarne" id="resultadocarne" readonly value><br>                    
                     <label class="CampoBebida">Bebidas Und:</label><br>
                     <input type="campos" name="valorBebida" id="valorBebida" placeholder="Insira a Quant">
                     <input type="campos" name="quantBebida" id="quantBebida" placeholder="Insira o Valor R">
@@ -59,11 +61,16 @@
                     <input type="campos" name="cota" id="cota" placeholder="R$" readonly><br>
                     <label>Hamburgue sem bebida</label><br>
                     <input type="campos" name="cotabebida" id="cotasembebida" placeholder="R$" readonly>
+                    </div>
 
-                    <button class="btn-opc" onclick="calcular">Calcular</button>    
-
-                     
+                    <div class="button">
+                    <div class="btn">
+                    <button class="btn-opc" onclick="calcular">Calcular</button>   
+                    </div>
+                    </div>
+                                
     </div>
+</main>
 
 </body>
 </html>
