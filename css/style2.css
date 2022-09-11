@@ -22,3 +22,13 @@ main{
   border-radius: 10px;
 
 }
+
+.container{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.box-item {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
