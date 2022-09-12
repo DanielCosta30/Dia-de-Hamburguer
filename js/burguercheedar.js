@@ -52,5 +52,15 @@ botaoCalcular.addEventListener("click", function (event) {
   document.getElementById("valorH").value = SomaHamburguer;
 
 
+  // calcular cota hamburguer + bebida
+
+  let numero17 = Number(document.getElementById("quantamigos").value);
+  let numero18 = Number(document.getElementById("quantbebi").value);
+  let CotaHamburgue = SomaHamburguer / numero17;
+  let CotaBebida = resultado8 / numero18;
+  let TotalHamburgueBebida = CotaBebida + CotaHamburgue;
+
+  document.getElementById("cota").value = TotalHamburgueBebida.toFixed(2);
+
 
 });
