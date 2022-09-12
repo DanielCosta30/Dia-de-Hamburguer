@@ -1,86 +1,209 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/style2.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Hamburgue Cheedar</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box">
+          <label class="item-pao">Pacote de Pão Und:</label><br />
+          <input
+            type="campos"
+            name="paovalor"
+            id="paovalor"
+            placeholder="Insira a Quant."
+          />
+          <input
+            type="campos"
+            name="quantpao"
+            id="quantpao"
+            placeholder="Insira o Valor R$"
+          />
+          <input
+            type="campos"
+            name="resultadopao"
+            id="resultadopao"
+            readonly
+            value
+          /><br />
+          <label>Bacon Kg:</label><br />
+          <input
+            type="campos"
+            name="quantbacon"
+            id="quantbacon"
+            placeholder="Insira a Quant."
+          />
+          <input
+          type="campos"
+          name="valorbacon"
+          id="valorbacon"
+          placeholder="Insira o Valor R"
+          />
+          <input
+          type="campos"
+          name="resultadobacon"
+          id="resultadobacon"
+            readonly
+            value
+          /><br />
+          <label>Maionese Kg:</label><br />
+          <input
+            type="campos"
+            name="quantmaionese"
+            id="quantmaionese"
+            placeholder="Insira a Quant"
+          />
+          <input
+            type="campos"
+            name="valormaionese"
+            id="valormaionese"
+            placeholder="nsira o Valor R"
+          />
+          <input
+            type="campos"
+            name="resultadomaionese"
+            id="resultadomaionese"
+            readonly
+            value
+          /><br />
+          <label>Alho Kg:</label><br />
+          <input
+            type="campos"
+            name="quantalho"
+            id="quantalho"
+            placeholder="Insira a Quant"
+          />
+          <input
+            type="campos"
+            name="valoralho"
+            id="valoralho"
+            placeholder="Insira o Valor R"
+          />
+          <input
+            type="campos"
+            name="resultadoalho"
+            id="resultadoalho"
+            readonly
+            value
+          /><br />
+          <label>Cheddar Kg:</label><br />
+          <input
+            type="campos"
+            name="valorch"
+            id="valorch"
+            placeholder="Insira a Quant"
+          />
+          <input
+            type="campos"
+            name="quantch"
+            id="quantch"
+            placeholder="Insira o Valor R"
+          />
+          <input
+            type="campos"
+            name="resultadoch"
+            id="resultadoch"
+            readonly
+            value
+          /><br/>
+          <label>Carne Fraldinha Kg:</label><br />
+          <input
+            type="campos"
+            name="quantcarne"
+            id="quantcarne"
+            placeholder="Insira a Quant"
+          />
+          <input
+            type="campos"
+            name="valorcarne"
+            id="valorcarne"
+            placeholder="Insira o Valor R"
+          />
+          <input
+            type="campos"
+            name="resultadocarne"
+            id="resultadocarne"
+            readonly
+            value
+          /><br />
+          <label class="CampoBebida">Bebidas Und:</label><br />
+          <input
+            type="campos"
+            name="valorBebida"
+            id="valorBebida"
+            placeholder="Insira a Quant"
+          />
+          <input
+            type="campos"
+            name="quantBebida"
+            id="quantBebida"
+            placeholder="Insira o Valor R"
+          />
+          <input
+            type="campos"
+            name="resultadoBebida"
+            id="resultadoBebida"
+            readonly
+            value
+          /><br />
 
-<main>
-
-    <div class="container">
-
-        <div class="box-div01">
-        <div class="box-item">
-            <label class="item-pao">Pacote de Pão Und:</label><br>
-            <input type="campos" name="paovalor" id="paovalor" placeholder="Insira a Quant.">
-            <input type="campos" name="quantpao" id="quantpao" placeholder="Insira o Valor R$">
-            <input type="campos" name="resultadopap" id="resultadopao" readonly value><br>
-        </div>
-        </div>
-        <div class="box-div02">
-        <div class="box-item">
-            <label>Cebola Branca Kg:</label><br>
-            <input type="campos" name="valorcebola" id="valorcebola" placeholder="Insira a Quant.">
-            <input type="campos" name="quantcebola" id="quantcebola" placeholder="Insira o Valor R">
-            <input type="campos" name="resultadocebola" id="resultadocebola" readonly value><br>
-        </div>
-        </div>
-        <div class="box-item">
-            <label>Tomate Kg:</label><br>
-            <input type="campos" name="valortomate" id="valortomate" placeholder="Insira a Quant">
-            <input type="campos" name="quanttomate" id="quanttomate" placeholder="nsira o Valor R">
-            <input type="campos" name="resultadotomate" id="resultadotomate" readonly value><br>
-        </div>
-        <div class="box-item">
-            <label>Queijo Prado Kg:</label><br>
-            <input type="campos" name="valorQp" id="valorQp" placeholder="Insira a Quant">
-            <input type="campos" name="quantQp" id="quantQp" placeholder="Insira o Valor R">
-            <input type="campos" name="resultadoQp" id="resultadoQp" readonly value><br>
-        </div>
-        <div class="box-item">
-            <label>Cheddar Kg:</label><br>
-            <input type="campos" name="valorch" id="valorch" placeholder="Insira a Quant">
-            <input type="campos" name="quantch" id="quantch" placeholder="Insira o Valor R">
-            <input type="campos" name="resultadoch" id="resultadoch" readonly value><br>
-        </div>
-        <div class="box-item">
-            <label>Maionese Kg:</label><br>
-            <input type="campos" name="valorM" id="valorM" placeholder="Insira a Quant">
-            <input type="campos" name="quantM" id="quantM" placeholder="Insira o Valor R">
-            <input type="campos" name="resultadoM" id="resultadoM" readonly value><br>
-        </div>
-        <div class="box-item">
-            <label>Carne Fraldinha Kg:</label><br>
-            <input type="campos" name="valorcarne" id="valorcarne" placeholder="Insira a Quant">
-            <input type="campos" name="quantcarne" id="quantcarne" placeholder="Insira o Valor R">
-            <input type="campos" name="resultadocarne" id="resultadocarne" readonly value><br>
-        </div>
-        <div class="box-item">
-            <label class="CampoBebida">Bebidas Und:</label><br>
-            <input type="campos" name="valorBebida" id="valorBebida" placeholder="Insira a Quant">
-            <input type="campos" name="quantBebida" id="quantBebida" placeholder="Insira o Valor R">
-            <input type="campos" name="resultadoBebida" id="resultadoBebida" readonly value><br>
+          <label>Quantos amigos vão participar?</label><br />
+          <input
+            type="campos"
+            name="valorB"
+            id="quantamigos"
+            placeholder="Insira a Quantidade"
+          /><br />
+          <label>Quantos Bebi?</label><br />
+          <input
+            type="campos"
+            name="valorqb"
+            id="quantbebi"
+            placeholder="Insira a Quantidade"
+          /><br />
+          <label>Total Hamburguer + bebida?</label><br />
+          <input
+            type="campos"
+            name="valorH"
+            id="valorH"
+            placeholder="R$"
+            readonly
+          /><br />
+          <label>Hamburguer + Bebida</label><br />
+          <input
+            type="campos"
+            name="cota"
+            id="cota"
+            placeholder="R$"
+            readonly
+          /><br />
+          <label>Hamburgue sem bebida</label><br />
+          <input
+            type="campos"
+            name="cotabebida"
+            id="cotasembebida"
+            placeholder="R$"
+            readonly
+          />
         </div>
 
-
-
+        <div class="button">
+          <div class="btn">
+            <button class="btn-opc" onclick="calcular()">Calcular</button>
+          </div>
+        </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-</main>
-
-</body>
-
+      <script src="./js/burguercheedar.js"></script>
+    </main>
+  </body>
 </html>
