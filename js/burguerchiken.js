@@ -19,7 +19,7 @@ botaoCalcular.addEventListener("click", function (event) {
   document.getElementById("resultadoqc").value = resultado3;
 
   let numero7 = Number(document.getElementById("valorbc").value);
-  let numero8 = Number(document.getElementById("quantvc").value);
+  let numero8 = Number(document.getElementById("quantbc").value);
   let resultado4 = numero7 * numero8;
   document.getElementById("resultadobc").value = resultado4;
 
@@ -27,12 +27,12 @@ botaoCalcular.addEventListener("click", function (event) {
   let numero13 = Number(document.getElementById("valorfrango").value);
   let numero14 = Number(document.getElementById("quantfrango").value);
   let resultado5 = numero13 * numero14;
-  document.getElementById("resultadofrango").value = resultado7;
+  document.getElementById("resultadofrango").value = resultado5;
 
   let numero15 = Number(document.getElementById("valorBebida").value);
   let numero16 = Number(document.getElementById("quantBebida").value);
   let resultado6 = numero15 * numero16;
-  document.getElementById("resultadoBebida").value = resultado8;
+  document.getElementById("resultadoBebida").value = resultado6;
 
     // Somar os Hamburguer
 
