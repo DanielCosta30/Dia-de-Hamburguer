@@ -40,6 +40,4 @@ botaoCalcular.addEventListener("click", function (event) {
   document.getElementById("resultadoBebida").value = resultado8;
 
 
-  
-
 });
