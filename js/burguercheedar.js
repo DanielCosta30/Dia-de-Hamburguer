@@ -39,5 +39,18 @@ botaoCalcular.addEventListener("click", function (event) {
   let resultado8 = numero15 * numero16;
   document.getElementById("resultadoBebida").value = resultado8;
 
+    // Somar os Hamburguer
+
+    let SomaHamburguer =
+    resultado1 +
+    resultado2 +
+    resultado3 +
+    resultado4 +
+    resultado5 +
+
+    resultado7;
+  document.getElementById("valorH").value = SomaHamburguer;
+
+
 
 });
