@@ -62,5 +62,9 @@ botaoCalcular.addEventListener("click", function (event) {
 
   document.getElementById("cota").value = TotalHamburgueBebida.toFixed(2);
 
+  
+  //calcular parte para quem não vai beber
+
+  document.getElementById("cotasembebida").value = CotaHamburgue;
 
 });
