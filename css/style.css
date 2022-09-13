@@ -4,15 +4,37 @@
 }
 
 header{
-    background: #242323;
+    background: #0f0404;
+
+
+}
+.box{
+    padding-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
     height: 6vh;
 }
 
-.titulo {
+.titulo, .home {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
 
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(90, 90, 151, 0.822);
+}
+.home{
+    margin-right: 40px;
+}
+
+.titulo{
+    margin-left: 40px;
 }
 
 h2{
@@ -21,16 +43,18 @@ h2{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
+    font-family:fantasy;
+    font-size: 20px;
+    text-align: center;
 }
 
 .container{
     position: absolute;
-    top: 0; bottom: 0;
+    top: 15vh; bottom: 0;
     left: 0; right: 0;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.288);
     width: 40%;
-    height: 30rem;
+    height: 20rem;
     border-radius: 10px;
 
 }
@@ -55,8 +79,8 @@ body{
 
 .btn-opc{
     display: flex;
-    background: rgba(255, 166, 0, 0.397); 
-    padding: 5px 5px 5px 5px;
+    background: rgba(201, 80, 24, 0.726); 
+    padding: 9px 9px 9px 9px;
     width: auto;
     margin-left:10px;
     margin-right: 10px;  
